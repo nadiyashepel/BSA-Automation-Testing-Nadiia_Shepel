@@ -372,12 +372,11 @@ describe('Registration:', function () {
 
   it('should be able to change specialty and clinic', async function () {
 
-
     const email = 'test10@test.com';
     const password = 'test10@test.com';
 
-    changedSpeciality = 'surgeon';
-    changedClinic = 'Hospital';
+    const changedSpeciality = 'surgeon';
+    const changedClinic = 'Hospital';
 
     await browser.setWindowSize(1440, 960);
     await browser.url('/sign-in');
