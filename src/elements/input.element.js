@@ -18,3 +18,4 @@ class Input extends BaseElement {
 }
 
 module.exports = { Input };
+
